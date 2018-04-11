@@ -1,0 +1,67 @@
+.addon-xml-task {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  position: relative;
+  background-repeat: repeat;
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2290.71px%22%20height%3D%2290.71px%22%20viewBox%3D%220%200%2090.71%2090.71%22%3E%3Cpath%20fill%3D%22%23B7B7B7%22%20d%3D%22M67.499%2C51.099H23.212c-6.988%2C0-12.674-5.686-12.674-12.674v18.631c0%2C6.988%2C5.686%2C12.674%2C12.674%2C12.674%20h44.286c6.988%2C0%2C12.674-5.686%2C12.674-12.674V38.425C80.172%2C45.414%2C74.487%2C51.099%2C67.499%2C51.099z%22%2F%3E%3Cpath%20fill%3D%22%23C7C7C7%22%20d%3D%22M67.499%2C23.24H23.212c-6.988%2C0-12.674%2C5.685-12.674%2C12.673v2.512c0%2C6.988%2C5.686%2C12.674%2C12.674%2C12.674h44.286%20c6.988%2C0%2C12.674-5.686%2C12.674-12.674v-2.512C80.172%2C28.924%2C74.487%2C23.24%2C67.499%2C23.24z%22%2F%3E%3Cpath%20fill%3D%22%23777777%22%20d%3D%22M67.499%2C23.24c6.988%2C0%2C12.674%2C5.685%2C12.674%2C12.672v21.144c0%2C6.988-5.686%2C12.674-12.674%2C12.674H23.212%20c-6.988%2C0-12.674-5.686-12.674-12.674V35.912c0-6.988%2C5.686-12.672%2C12.674-12.672H67.499%20M67.499%2C21.74H23.212%20c-7.828%2C0-14.174%2C6.346-14.174%2C14.172v21.144c0%2C7.828%2C6.346%2C14.174%2C14.174%2C14.174h44.286c7.828%2C0%2C14.174-6.346%2C14.174-14.174V35.912%20C81.672%2C28.085%2C75.327%2C21.74%2C67.499%2C21.74L67.499%2C21.74z%22%2F%3E%3Cpath%20fill%3D%22%23777777%22%20d%3D%22M28.455%2C50.758h-6.076v-3.086c-0.596-0.186-1.173-0.425-1.727-0.718l-2.183%2C2.184l-4.296-4.295l2.184-2.184%20c-0.292-0.554-0.532-1.131-0.717-1.726h-3.085v-6.075h3.085c0.185-0.595%2C0.425-1.172%2C0.717-1.727l-2.184-2.184l4.296-4.295%20l2.184%2C2.183c0.554-0.292%2C1.131-0.532%2C1.727-0.717v-3.085h6.076v3.085c0.595%2C0.185%2C1.172%2C0.425%2C1.725%2C0.717l2.184-2.184l4.295%2C4.296%20l-2.183%2C2.183c0.292%2C0.554%2C0.532%2C1.131%2C0.717%2C1.727h3.086v6.075h-3.086c-0.185%2C0.595-0.425%2C1.172-0.717%2C1.726l2.183%2C2.184%20l-4.296%2C4.295l-2.183-2.184c-0.553%2C0.293-1.13%2C0.532-1.726%2C0.718V50.758z%20M24.379%2C48.758h2.076v-2.651l0.78-0.177%20c0.913-0.206%2C1.779-0.566%2C2.576-1.07l0.676-0.428l1.877%2C1.878l1.468-1.467l-1.877-1.877l0.427-0.676%20c0.504-0.798%2C0.865-1.665%2C1.07-2.576l0.176-0.78h2.653v-2.075h-2.653l-0.176-0.78c-0.206-0.912-0.565-1.779-1.07-2.576l-0.428-0.676%20l1.877-1.877l-1.467-1.467l-1.877%2C1.877l-0.676-0.428c-0.797-0.504-1.664-0.864-2.575-1.07l-0.78-0.176v-2.652h-2.076v2.652%20l-0.781%2C0.175c-0.91%2C0.205-1.777%2C0.565-2.576%2C1.07l-0.676%2C0.427l-1.877-1.877l-1.467%2C1.467l1.877%2C1.878l-0.427%2C0.676%20c-0.505%2C0.799-0.865%2C1.666-1.07%2C2.576l-0.175%2C0.781h-2.653v2.075h2.653l0.175%2C0.781c0.205%2C0.911%2C0.565%2C1.777%2C1.07%2C2.575l0.428%2C0.676%20l-1.878%2C1.877l1.467%2C1.467l1.877-1.878l0.676%2C0.428c0.796%2C0.504%2C1.664%2C0.864%2C2.577%2C1.07l0.78%2C0.177V48.758z%22%2F%3E%3Cpath%20fill%3D%22%23C7C7C7%22%20d%3D%22M32.381%2C42.29c0.504-0.798%2C0.865-1.665%2C1.07-2.576l0.176-0.78h2.653v-2.075h-2.653l-0.176-0.78%20c-0.206-0.912-0.565-1.779-1.07-2.576l-0.428-0.676l1.877-1.877l-1.467-1.467l-1.877%2C1.877l-0.676-0.428%20c-0.797-0.504-1.664-0.864-2.575-1.07l-0.78-0.176v-2.652h-2.076v2.652l-0.781%2C0.175c-0.91%2C0.205-1.777%2C0.565-2.576%2C1.07%20l-0.676%2C0.427l-1.877-1.877l-1.467%2C1.467l1.877%2C1.878l-0.427%2C0.676c-0.505%2C0.799-0.865%2C1.666-1.07%2C2.576l-0.175%2C0.781h-2.653v2.075%20h2.653l0.175%2C0.781c0.205%2C0.911%2C0.565%2C1.777%2C1.07%2C2.575l0.428%2C0.676l-1.878%2C1.877l1.467%2C1.467l1.877-1.878l0.676%2C0.428%20c0.796%2C0.504%2C1.664%2C0.864%2C2.577%2C1.07l0.78%2C0.177v2.651h2.076v-2.651l0.78-0.177c0.913-0.206%2C1.779-0.566%2C2.576-1.07l0.676-0.428%20l1.877%2C1.878l1.468-1.467l-1.877-1.877L32.381%2C42.29z%22%2F%3E%3C%2Fsvg%3E);
+}
+.addon-xml-task img.addon-xml-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  -webkit-filter: drop-shadow(1px 1px 3px #ffffff);
+  filter: drop-shadow(1px 1px 3px #FFF);
+  border: none;
+  margin: 0;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3em;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row:nth-child(n + 2) {
+  border-top: solid 1px #e5e5e5;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-label {
+  display: block;
+  width: 100%;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta {
+  display: flex;
+  flex-direction: row;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta .questetra-addon-xml-viewer-config-row-item {
+  display: inline;
+  padding: .5em;
+  font-size: 75%;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.2em .75em;
+  background-color: #777;
+  margin: 0 1px;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta .questetra-addon-xml-viewer-config-row-item-required {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #a02622;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta .questetra-addon-xml-viewer-config-row-item-el {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #1d4567;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta .questetra-addon-xml-viewer-config-row-item-meta-data {
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+}
+.questetra-addon-xml-viewer-config .questetra-addon-xml-viewer-config-row .questetra-addon-xml-viewer-config-row-item-meta .questetra-addon-xml-viewer-config-row-item-meta-data .questetra-addon-xml-viewer-config-row-item-formtype {
+  display: none;
+}
