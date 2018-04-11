@@ -1,8 +1,10 @@
-# jQuery-Questetra-Addon-Viwer
+# WP Questetra Addon XML Show Shortcode
 
 Questetra Addon-XML の詳細表示のための Wordpressプラグイン。
 
 クライアントサイド（ＪＳ）で公開XMLを読み込み、レイアウトすることで　Wordpress　側をキャッシュ等で汚さない。デメリットとしては、クロスドメインが許可されていないソースに対して読み込みが行えない
+
+[Github](https://github.com/Questetra/WP-Questetra-Addon-XML-Show-Shortcode) / [Pages](https://questetra.github.io/WP-Questetra-Addon-XML-Show-Shortcode/)
 
 
 ## ショートコード
