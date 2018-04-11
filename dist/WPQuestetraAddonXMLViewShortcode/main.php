@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Questetra Addon XML Show Shortcode
-Plugin URI: https://github.com/yambal/jQuery-Questetra-Addon-Viwer
+Plugin URI: https://questetra.github.io/WP-Questetra-Addon-XML-Show-Shortcode/
 Description: Questetra Addon XML の配布に関連したショートコード
 Version: 0.3
 Author: June YAMAMOTO
