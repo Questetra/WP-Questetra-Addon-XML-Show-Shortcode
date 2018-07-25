@@ -206,6 +206,9 @@
                     var summary = $(src)
                         .find("service-task-definition > summary" + locale)
                         .html();
+
+                    //console.log('summary', summary);
+
                     $(addonSetting.summary)
                         .html(summary)
                         .addClass(
@@ -239,8 +242,9 @@
                         .find("script")
                         .html();
                     script = script.replace(/<\!\[CDATA\[\n*|\n*\]\]>/g, "");
+                    //console.log(script);
                     $(addonSetting.script)
-                        .html(script)
+                        .text(script)
                         .addClass(
                             addonSetting.class.prefix + "-" + addonSetting.class.script
                         );
@@ -257,6 +261,9 @@
                     var localeCode = methods._getLocale.apply(this, ["en"]);
 
                     var res = "";
+
+
+
                     $config.each(function(index, val) {
 
                       var label = $(this)

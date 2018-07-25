@@ -31,3 +31,6 @@ Questetra Addon-XML の詳細表示のための Wordpressプラグイン。
 
 ### addon_xml_script
     [addon_xml_script /]
+
+## 履歴
+- 2018-07-25 : バグ修正 Ver.0.4
