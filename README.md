@@ -27,7 +27,7 @@ Questetra Addon-XML の詳細表示のための Wordpressプラグイン。
     [addon_xml_config /]
 
 ### addon_xml_config_table
-    <table>[addon_xml_config_table /]</table>
+    [addon_xml_config_table /]
 
 ### addon_xml_script
     [addon_xml_script /]
