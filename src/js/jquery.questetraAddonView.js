@@ -11,7 +11,7 @@
                         configTable: ".addon-xml-config-table",
                         script: ".addon-xml-script",
                         icon: ".addon-xml-icon",
-                        download:".addon-xml-download",
+                        download: ".addon-xml-download",
                         requiredLabel: {
                             en: "required",
                             ja: "必須"
@@ -262,18 +262,22 @@
 
                     var res = "";
 
-
-
                     $config.each(function(index, val) {
 
-                      var label = $(this)
+                        var label = $(this)
                             .find("label" + locale)
                             .html();
-                      var name = $(this).attr('name');
-                      res += '<tr class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low">';
-                      res += '<th class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-name">' + name + '</th>';
-                      res += '<td class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-label">' + label + '</td>';
-                      res += '</tr>';
+                        if (!label) {
+                            label = $(this)
+                                .find("label")
+                                .html();
+                        }
+
+                        var name = $(this).attr('name');
+                        res += '<tr class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low">';
+                        res += '<th class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-name">' + name + '</th>';
+                        res += '<td class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-label">' + label + '</td>';
+                        res += '</tr>';
                     });
 
                     $(addonSetting.configTable).html(res);
@@ -318,6 +322,11 @@
                         var label = $(this)
                             .find("label" + locale)
                             .html();
+                        if (!label) {
+                            label = $(this)
+                                .find("label")
+                                .html();
+                        }
 
                         var formType = String($(this).attr("form-type")).toUpperCase();
                         if (formType === "UNDEFINED") {
