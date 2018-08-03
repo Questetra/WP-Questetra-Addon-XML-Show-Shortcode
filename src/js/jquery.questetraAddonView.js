@@ -275,7 +275,7 @@
 
                         var name = $(this).attr('name');
                         res += '<tr class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low">';
-                        res += '<th class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-name">' + name + '</th>';
+                        res += '<td class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-name">' + name + '</td>';
                         res += '<td class="' + addonSetting.class.prefix + '-' + addonSetting.class.config + '-table-low-label">' + label + '</td>';
                         res += '</tr>';
                     });
