@@ -3,7 +3,7 @@
 Plugin Name: WP Questetra Addon XML Show Shortcode
 Plugin URI: https://questetra.github.io/WP-Questetra-Addon-XML-Show-Shortcode/
 Description: Questetra Addon XML の配布に関連したショートコード
-Version: 0.4
+Version: 0.5
 Author: June YAMAMOTO
 Author URI: https://www.questetra.com/
 License: GPL2
